@@ -57,6 +57,3 @@ function fadeAnime(){
       return false;
     });
   });
-
-
-  

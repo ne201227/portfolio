@@ -28,6 +28,11 @@ ul li a:hover{
 color: #354259;
 }
 
+.drop-shaped a  {
+  color: #fff;
+  text-decoration: none;
+}
+
 .logo {
   text-align: center;
 }
@@ -100,13 +105,14 @@ h3  {
 .fotter  {
   margin-top: 100px;
   text-align: center;
-  bottom: 0;
+  margin-bottom: 0;
 }
 
 .fotter p  {
   color: #fff;
   background-color: #354259;
-  padding: 20px 0;
+  padding: 80px 0;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -152,10 +158,17 @@ p  {
 
 .drop-shaped{
   position: fixed;
-  right: 40px;
+  right: 50px;
   bottom: 30px;
+  width: 15vmin;
+  height: 15vmin;
+  background: #007C8A;
+  border-radius: 0% 100% 50% 50%/ 0% 50% 50% 100%;
+  transform: rotate(45deg) skew(10deg, 10deg);
 }
 
 .drop-shaped p  {
-  background-color: #000;
+  color: #fff;
+  transform: rotate(-45deg);
+  font-weight: bold;
 }

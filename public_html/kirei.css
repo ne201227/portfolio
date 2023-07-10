@@ -1,0 +1,174 @@
+ul{
+display: table;
+margin: 0 auto;
+margin-top: 10px;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+ul li{
+display: table-cell;
+min-width: 50px;
+}
+ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #ccc;
+font-weight: bold;
+}
+ul li.current{
+border: 3px solid #555;
+}
+ul li.current a{
+color: #555;
+}
+ul li a:hover{
+color: #354259;
+}
+
+.drop-shaped a  {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img  {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.content1  {
+  margin: 0 10%;
+}
+
+.content2  {
+  margin: 10% 20%;
+  text-align: center;
+}
+
+.content2 p span  {
+  color: orange;
+}
+
+img  {
+  width: 60%;
+  margin: 20px 0;
+}
+
+.box20 {
+    position: relative;
+    padding: 0.25em 1em;
+    margin: 60px 0;
+    top: 0;
+    background-color: rgb(236, 229, 199, 0.8);
+    text-align: center;
+}
+.box20:before, .box20:after{
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box20:before{
+    border-left: dotted 2px #15adc1;
+    border-top: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    left: 0;
+}
+.box20:after{
+    border-top: dotted 2px #15adc1;
+    border-right: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    right: 0;
+}
+.box20 h3 {
+    margin: 0;
+    padding: 30px 0;
+}
+
+h2  {
+  color: #354259;
+}
+
+h3  {
+  color: #354259;
+}
+
+.fotter  {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.fotter p  {
+  color: #fff;
+  background-color: #354259;
+  padding: 80px 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+  color: #354259;
+}
+h1:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+
+p  {
+  margin: 10px 0;
+}
+
+.circle1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: skyblue;/*背景色*/
+  margin: 10px auto;
+}
+
+.circle2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: green;/*背景色*/
+  margin: 10px auto;
+}
+
+
+.drop-shaped{
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  width: 15vmin;
+  height: 15vmin;
+  background: #007C8A;
+  border-radius: 0% 100% 50% 50%/ 0% 50% 50% 100%;
+  transform: rotate(45deg) skew(10deg, 10deg);
+}
+
+.drop-shaped p  {
+  color: #fff;
+  transform: rotate(-45deg);
+  font-weight: bold;
+}

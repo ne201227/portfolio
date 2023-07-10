@@ -1,0 +1,172 @@
+html { scroll-behavior: smooth;}
+
+.fade{
+    animation: fadeIn 5s ease 0.1s 1 normal;
+}
+@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+}
+
+.home  {
+  background-image: url(IMG_1496.jpg);
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.home img  {
+  width: 200px;
+  margin-top: 5px;
+}
+
+.center  {
+  text-align: center;
+  margin: 0 5%;
+}
+
+.top  {
+  display: inline-block;
+  margin: 100px auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+
+.top p  {
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.home h1  {
+  color: #50453A;
+  margin-bottom: 50px;
+  writing-mode: vertical-rl;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Noto Serif JP', serif;
+  margin-top: 50px;
+  border-radius: 1px;
+  border: 4px dotted #B8503E;
+  padding: 20px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+h2  {
+  color: #fff;
+  padding: 20px;
+}
+
+h3  {
+  color: #fff;
+  margin-bottom: 50px;
+  writing-mode: vertical-rl;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Noto Serif JP', serif;
+}
+
+p  {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+a:hover  {
+  opacity: 0.6;
+}
+
+.footer p  {
+  background-color: rgba(87, 111, 114, 0.5);
+  padding: 100px 0;
+  margin-top: 200px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.content  {
+  background-color: rgba(87, 111, 114, 0.5);
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+ .content img {
+   height: 120px;
+   width: auto;
+   margin: 10px;
+ }
+
+ .content p  {
+   padding: 0 20px;
+ }
+
+
+
+.fadeUp{
+animation-name:fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
+
+
+
+
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+
+
+.yokonarabe{
+  display:flex;/*コレ*/
+  width:100%;
+  margin:0;
+  text-align: left;
+}
+.yokonarabe1>div{
+  width:20%;
+  margin:0 1%;
+  border:1px solid #999;
+  background:#FFF;
+}
+
+.centering_parent {
+    padding: 50px 200px;              /* 余白指定 */
+    text-align: left;;        /* 中央寄せ */
+    background-color: rgba(87, 111, 114, 0.5);
+}
